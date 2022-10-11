@@ -3400,3 +3400,7 @@ let obj = [
     nat: 'DK'
   }
 ]
+
+
+console.log(obj.filter(p => p.location.country == "Iran").length);
+
